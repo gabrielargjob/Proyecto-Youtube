@@ -1,5 +1,8 @@
 *{
   margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
   background-color: #0f0f0f;
   color: #fff;
   font-family: "Roboto Condensed", sans-serif;

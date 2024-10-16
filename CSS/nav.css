@@ -1,35 +1,45 @@
-nav {
-   height: 56px;
-   padding: 0 16px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   flex-direction: row;
-   cursor: pointer;
+.side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 15px;
 }
 
-nav > div {
+.side-logo {
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 30px;
-    padding: 10px 25px;
     cursor: pointer;
 }
 
-nav > div > .search {
-    display: flex;
-    position: sticky;
-    align-items: center;
-    gap: 0;
-    padding: 0 14px 0 16px;
-    margin-left: 36px;
-    height: 40px;
-    border: 1px solid #303030;
-    border-right: none;
-    border-radius: 40px 0 0 40px;
-    cursor: pointer;
+.side-logo img {
+    width: 120px;
+    margin-left: 15px;
+}
 
+.search-bar form {
+    height: 35px;
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 10px 0 0 10px;
+}
+
+.search-bar input {
+    width: 500px;
+    height: 100%;
+    border-radius: 30px 30px 30px 30px;
+    outline: none;
+}
+
+.search-bar button {
+    height: 100%;
+}
+
+.side i {
+    padding: 0 8px;
+    margin-left: 0.5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
 }
 
 
